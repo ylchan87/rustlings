@@ -1,8 +1,11 @@
 // functions1.rs
 // Make me compile! Execute `rustlings hint functions1` for hints :)
 
-// I AM NOT DONE
+
+pub fn call_me(n:i32)->i32{
+    n+10
+}
 
 fn main() {
-    call_me();
+    call_me(1);
 }
