@@ -5,7 +5,15 @@
 
 // Write a macro that passes the quiz! No hints this time, you can do it!
 
-// I AM NOT DONE
+// I AM ~NOT DONE
+
+use std::string;
+
+macro_rules! my_macro {
+    ($w:expr) => {
+        "Hello ".to_owned() + $w
+    };
+}
 
 #[cfg(test)]
 mod tests {
